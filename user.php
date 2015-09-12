@@ -50,6 +50,8 @@ class user{
     
     public function login($email, $password) {
         $mysqli = $this->connect();
+        $email = $this->filter($email);
+        $password = $this->filter($password);
         // Using prepared statements means that SQL injection is not possible. 
         if ($stmt = $mysqli->prepare("SELECT id, username, password, salt 
                                     FROM members
