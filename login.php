@@ -91,9 +91,7 @@ if(isset($_POST['email'],$_POST['p'])){
     </div>
     <footer class="footer">
         <div class="container">
-                <p class="pull-left">© User 2015</p>
-
-                <p class="pull-right">Privacy Policy | Terms | Blog</p>
+            <!-- footer -->
         </div>
     </footer>
     <!-- jQuery -->
