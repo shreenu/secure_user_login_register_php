@@ -1,4 +1,4 @@
-# Secure User Login Register in PHP and MySQL
+# Secure User Login & Register in PHP and MySQL
 
 *****Example code snippet*****
 ----------------------------------------------
